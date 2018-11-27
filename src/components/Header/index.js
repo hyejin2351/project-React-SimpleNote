@@ -8,8 +8,8 @@ class Header extends React.Component {
     return (
       <div className="header">
         <div className="title">
-          <a href="https://github.com/hyejin2351" target="_blank">
-            <img className="logo" src={logo} />
+          <a href="https://github.com/hyejin2351" target="_blank" rel="noopener noreferrer">
+            <img className="logo" src={logo} alt="로고" />
           </a>
           <span>Hyejin's 심플노트</span>
         </div>
